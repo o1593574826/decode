@@ -1,4 +1,6 @@
 import ddddocr
+import eel
+@eel.expose
 
 def decode():
     ocr = ddddocr.DdddOcr()
